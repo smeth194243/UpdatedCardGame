@@ -9,19 +9,29 @@
 /* Begin PBXBuildFile section */
 		79A31F2B1DFF2DF400579ECA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A31F2A1DFF2DF400579ECA /* AppDelegate.swift */; };
 		79A31F2D1DFF2DF400579ECA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A31F2C1DFF2DF400579ECA /* ViewController.swift */; };
-		79A31F301DFF2DF400579ECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A31F2E1DFF2DF400579ECA /* Main.storyboard */; };
-		79A31F321DFF2DF400579ECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79A31F311DFF2DF400579ECA /* Assets.xcassets */; };
-		79A31F351DFF2DF400579ECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A31F331DFF2DF400579ECA /* LaunchScreen.storyboard */; };
+		79A31F461DFF2E2D00579ECA /* Afternoon Card Diagram.uxf in Resources */ = {isa = PBXBuildFile; fileRef = 79A31F3C1DFF2E2D00579ECA /* Afternoon Card Diagram.uxf */; };
+		79A31F481DFF2E2D00579ECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79A31F3E1DFF2E2D00579ECA /* Assets.xcassets */; };
+		79A31F491DFF2E2D00579ECA /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 79A31F3F1DFF2E2D00579ECA /* Base.lproj */; };
+		79A31F4A1DFF2E2D00579ECA /* Controller in Resources */ = {isa = PBXBuildFile; fileRef = 79A31F401DFF2E2D00579ECA /* Controller */; };
+		79A31F4B1DFF2E2D00579ECA /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A31F411DFF2E2D00579ECA /* Deck.swift */; };
+		79A31F4D1DFF2E2D00579ECA /* Model in Resources */ = {isa = PBXBuildFile; fileRef = 79A31F431DFF2E2D00579ECA /* Model */; };
+		79A31F4E1DFF2E2D00579ECA /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A31F441DFF2E2D00579ECA /* PlayingCardDeck.swift */; };
+		79A31F4F1DFF2E2D00579ECA /* View in Resources */ = {isa = PBXBuildFile; fileRef = 79A31F451DFF2E2D00579ECA /* View */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		79A31F271DFF2DF400579ECA /* UpdatedCardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpdatedCardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79A31F2A1DFF2DF400579ECA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79A31F2C1DFF2DF400579ECA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		79A31F2F1DFF2DF400579ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		79A31F311DFF2DF400579ECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		79A31F341DFF2DF400579ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79A31F361DFF2DF400579ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A31F3C1DFF2E2D00579ECA /* Afternoon Card Diagram.uxf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Afternoon Card Diagram.uxf"; path = "../../CardGame/Afternoon Card Diagram.uxf"; sourceTree = "<group>"; };
+		79A31F3E1DFF2E2D00579ECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../CardGame/Assets.xcassets; sourceTree = "<group>"; };
+		79A31F3F1DFF2E2D00579ECA /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Base.lproj; path = ../../CardGame/Base.lproj; sourceTree = "<group>"; };
+		79A31F401DFF2E2D00579ECA /* Controller */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Controller; path = ../../CardGame/Controller; sourceTree = "<group>"; };
+		79A31F411DFF2E2D00579ECA /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Deck.swift; path = ../../CardGame/Deck.swift; sourceTree = "<group>"; };
+		79A31F431DFF2E2D00579ECA /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Model; path = ../../CardGame/Model; sourceTree = "<group>"; };
+		79A31F441DFF2E2D00579ECA /* PlayingCardDeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayingCardDeck.swift; path = ../../CardGame/PlayingCardDeck.swift; sourceTree = "<group>"; };
+		79A31F451DFF2E2D00579ECA /* View */ = {isa = PBXFileReference; lastKnownFileType = folder; name = View; path = ../../CardGame/View; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +64,16 @@
 		79A31F291DFF2DF400579ECA /* UpdatedCardGame */ = {
 			isa = PBXGroup;
 			children = (
+				79A31F3C1DFF2E2D00579ECA /* Afternoon Card Diagram.uxf */,
+				79A31F3E1DFF2E2D00579ECA /* Assets.xcassets */,
+				79A31F3F1DFF2E2D00579ECA /* Base.lproj */,
+				79A31F401DFF2E2D00579ECA /* Controller */,
+				79A31F411DFF2E2D00579ECA /* Deck.swift */,
+				79A31F431DFF2E2D00579ECA /* Model */,
+				79A31F441DFF2E2D00579ECA /* PlayingCardDeck.swift */,
+				79A31F451DFF2E2D00579ECA /* View */,
 				79A31F2A1DFF2DF400579ECA /* AppDelegate.swift */,
 				79A31F2C1DFF2DF400579ECA /* ViewController.swift */,
-				79A31F2E1DFF2DF400579ECA /* Main.storyboard */,
-				79A31F311DFF2DF400579ECA /* Assets.xcassets */,
-				79A31F331DFF2DF400579ECA /* LaunchScreen.storyboard */,
 				79A31F361DFF2DF400579ECA /* Info.plist */,
 			);
 			path = UpdatedCardGame;
@@ -123,9 +138,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79A31F351DFF2DF400579ECA /* LaunchScreen.storyboard in Resources */,
-				79A31F321DFF2DF400579ECA /* Assets.xcassets in Resources */,
-				79A31F301DFF2DF400579ECA /* Main.storyboard in Resources */,
+				79A31F4F1DFF2E2D00579ECA /* View in Resources */,
+				79A31F461DFF2E2D00579ECA /* Afternoon Card Diagram.uxf in Resources */,
+				79A31F4A1DFF2E2D00579ECA /* Controller in Resources */,
+				79A31F4D1DFF2E2D00579ECA /* Model in Resources */,
+				79A31F491DFF2E2D00579ECA /* Base.lproj in Resources */,
+				79A31F481DFF2E2D00579ECA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,31 +154,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79A31F4B1DFF2E2D00579ECA /* Deck.swift in Sources */,
+				79A31F4E1DFF2E2D00579ECA /* PlayingCardDeck.swift in Sources */,
 				79A31F2D1DFF2DF400579ECA /* ViewController.swift in Sources */,
 				79A31F2B1DFF2DF400579ECA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		79A31F2E1DFF2DF400579ECA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				79A31F2F1DFF2DF400579ECA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		79A31F331DFF2DF400579ECA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				79A31F341DFF2DF400579ECA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		79A31F371DFF2DF400579ECA /* Debug */ = {
